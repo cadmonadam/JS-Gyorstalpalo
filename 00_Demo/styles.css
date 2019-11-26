@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #b8a78a;
+  font-family: fantasy;
+}
+
+h1 {
+  flex-grow: 2;
+  background-color: #ffeccc;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+h1 span {
+  font-size: 100px;
+  animation: pulse 5s infinite;
+}
+
+h2 {
+  flex-grow: 3;
+  background-color: #e0cba8;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+h2 span {
+  font-size: 70px;
+  animation: pulse 3s infinite;
+}
+
+button {
+  margin: 0 auto;
+  font-size: 24px;
+  font-family: inherit;
+  width: 200px;
+  height: 100px;
+  border: 2px solid #fff1d9;
+  background-color: #f0e7d7;
+}
+
+button:hover {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-2px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(4px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-8px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(8px, 0, 0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    color: #c3d2d5;
+  }
+  25% {
+    color: #bda0bc;
+  }
+  50% {
+    color: #a2708a;
+  }
+  75% {
+    color: #824670;
+  }
+  100% {
+    color: #c3d2d5;
+  }
+}
