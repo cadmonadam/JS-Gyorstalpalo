@@ -26,6 +26,20 @@ Az első kisebb projekt, amit az Intro videómban is láthattok. Ezt a projektet
 
 ## 4. Arrays - Tömbök
 
+```javascript
+const arr = [11, true, "alma", undefined, { key: "value" }, null];
+```
+
 ## 5. Objects - Objektumok
+
+```javascript
+const cipo = {
+  key: "value"
+  meret: 39,
+  ar: 7999,
+  szin: "barna",
+  brand: "ArniKJ"
+};
+```
 
 ## 6. Useful String and Array Methods - Hasznos Tömb és String Metódusok
