@@ -10,7 +10,7 @@
 
 // number
 // boolean
-// boolean
+// string
 // null
 // undefined
 
