@@ -6,7 +6,7 @@
 
 // typeof Operator
 
-// Pritive tipusok
+// Primitive  tipusok
 
 // number
 // boolean
